@@ -40,7 +40,7 @@ public class Note {
 	public void setAddedDate(Date addedDate) {
 		this.addedDate = addedDate;
 	}
-	public Note(int id, String title, String content, Date addedDate) {
+	public Note(String title, String content, Date addedDate) {
 		super();
 		this.id = new Random().nextInt(100000);
 		this.title = title;
